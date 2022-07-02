@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/indexStyle.css">
+    <link rel="stylesheet" href="assets/css/navbarStyle.css">
+
+    <!-- jquery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>Hogwarts Academy</title>
+</head>
+
+<body>
+    <!-- Jquery -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+
+        <!-- Header and Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow shadow-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i id="icon" class="fa-solid fa-circle-down"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Profile
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="pages/about/about.html">About Us</a></li>
+                                <li><a class="dropdown-item" href="pages/about/headmaster.html">Headmaster</a></li>
+                                <li><a class="dropdown-item" href="pages/about/teacher-staff.html">Teacher and Staff</a>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Houses
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="pages/houses/gryffindor.html">Gryffindor</a></li>
+                                <li><a class="dropdown-item" href="pages/houses/hufflepuff.html">Hufflepuff</a></li>
+                                <li><a class="dropdown-item" href="pages/houses/ravenclaw.html">Ravenclaw</a></li>
+                                <li><a class="dropdown-item" href="pages/houses/slytherin.html">Slytherin</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="pages/gallery/gallery.html">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="header">
+            <div class="d-flex justify-content-between flex-sm-column flex-md-row align-items-center">
+                <div class="logo d-flex justify-content-center align-items-center">
+                    <a href="#">
+                        <img src="assets/img/hogwarts_logo.png" class="d-flex mx-auto" alt="..." width="180">
+                    </a>
+                    <a href="#" class="title-logo">Hogwarts
+                        <br>Academy</a>
+                </div>
+                <div class="sosmed d-flex me-md-5 ms-sm-5 mt-sm-5 mt-md-0">
+                    <a href="https://www.instagram.com/hogwartslegacy/" class="btn-sosmed">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/c/HarryPotterTheory" class="btn-sosmed">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send/?phone=6282137001283&text&type=phone_number&app_absent=0"
+                        class="btn-sosmed">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="mailto: abc@example.com" class="btn-sosmed">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Marquee Section -->
+        <div class="marquee">
+            <div class="news-container">
+                <h6>News</h6>
+            </div>
+            <marquee behavior="" direction="">
+                Welcome to the Hogwarts Academy website. The finest school of witchcraft and wizardry in the world.
+                There is currently no further information
+            </marquee>
+            <div class="date-container">
+                <h6>Monday, June 27, 2022</h6>
+            </div>
+        </div>
+        <!-- End of Marquee Section -->
+        <!-- End of Header and Navbar -->
+
+        <!-- Main Section -->
+        <main class="main">
+
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-banner">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/welcome_1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/welcome_2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/welcome_3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End of Hero Section -->
+
+            <!-- About Section -->
+            <section class="about">
+                <div class="container-fluid">
+                    <div class="about-content">
+                        <div class="row gx-5">
+                            <div class="col-xl-3 col-md-12">
+                                <img src="assets/img/Mcgonal.webp" class="d-block mx-auto w-100 img-headmaster"
+                                    alt="Profil Headmaster">
+                            </div>
+                            <div class="col-xl-9 col-md-12">
+                                <h2 class="mt-xl-0 mt-md-5" style="font-weight: 800;">Headmaster Welcome</h2>
+                                <p>
+                                    Hogwarts Academy has a world-class reputation for all-round excellence. We deliver a
+                                    dynamic education that develops the abilities and enthusiasms of each and every
+                                    individual girl and boy.
+                                </p>
+                                <p>
+                                    School should be serious fun. Learning and enjoyment go hand in hand: in the
+                                    classroom, through a vibrant co-curricular programme and in the communal life of the
+                                    School. At Hogwarts Academy, we aim to provide the most diverse, challenging and
+                                    supportive environment in which all our children can thrive and exceed their own
+                                    expectations.
+                                </p>
+                                <p>
+                                    Academic excellence is achieved through a wide-ranging curriculum that uncovers and
+                                    encourages a genuine love of learning, alongside inspirational teaching that
+                                    challenges each pupil to strive for her or his personal best. Many skills, values
+                                    and aptitudes do not come with a piece of paper, but they are nonetheless vital for
+                                    happy and purposeful living. A great education nurtures character; and it lasts a
+                                    lifetime
+                                </p>
+                                <p>
+                                    Come and see us to find out more. We look forward to welcoming you warmly.
+                                </p>
+                                <p>
+                                    <br>Professor Minerva McGonagall, Headmaster
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5 g-5">
+                            <div class="col-xl-4 col-md-12">
+                                <div class="row">
+                                    <div class="col-12 header-announcement">
+                                        <h5>Another Article</h5>
+                                    </div>
+                                    <div class="col-12 announcement-body">
+                                        <h6><a href="/pages/about/headmaster.html">Headmaster Master</a></h6>
+                                        <p>
+                                            Professor Minerva McGonagall, O.M. (First Class), was a Scottish half-blood
+                                            witch, the only daughter of Muggle Robert McGonagall and witch Isobel Ross.
+                                            She also
+                                            was the older sister of Malcolm and Robert Jnr. <a
+                                                href="/pages/about/headmaster.html">read more</a>
+                                        </p>
+                                    </div>
+
+                                    <div class="col-12 announcement-body">
+                                        <h6><a href="/pages/houses/gryffindor.html">Gryffindor House</a></h6>
+                                        <p>
+                                            Gryffindor was one of the four Houses of Hogwarts School of Witchcraft and
+                                            Wizardry
+                                            and was founded by Godric Gryffindor. Gryffindor instructed the Sorting Hat
+                                            to
+                                            choose students possessing characteristics he most valued, <a
+                                                href="/pages/houses/gryffindor.html">read more</a>
+                                        </p>
+                                    </div>
+                                    <div class="col-12 announcement-body">
+                                        <h6><a href="/pages/houses/hufflepuff.html">Hufflepuff House</a></h6>
+                                        <p>
+                                            Hufflepuff was one of the four Houses of Hogwarts School of Witchcraft and
+                                            Wizardry. Its founder was the medieval witch Helga Hufflepuff. Hufflepuff
+                                            was
+                                            the most inclusive among the four houses, valuing hard work, <a
+                                                href="/pages/houses/hufflepuff.html">read more</a>
+                                        </p>
+                                    </div>
+                                    <div class="col-12 announcement-body">
+                                        <h6><a href="/pages/houses/ravenclaw.html">Ravenclaw House</a></h6>
+                                        <p>
+                                            Ravenclaw was one of the four Houses of Hogwarts School of Witchcraft and
+                                            Wizardry.
+                                            Its founder was the medieval witch Rowena Ravenclaw. Members of this house
+                                            were
+                                            characterised by their wit, learning, and wisdom. <a
+                                                href="/pages/houses/ravenclaw.html">read more</a>
+                                        </p>
+                                    </div>
+                                    <div class="col-12 announcement-body">
+                                        <h6><a href="/pages/houses/slytherin.html">Slytherin House</a></h6>
+                                        <p>
+                                            Slytherin was one of the four Houses at Hogwarts School of Witchcraft and
+                                            Wizardry,
+                                            founded by Salazar Slytherin.In establishing the house, Salazar instructed
+                                            the
+                                            Sorting Hat to pick students who had a few particular characteristics he
+                                            most
+                                            valued. <a href="/pages/houses/slytherin.html">read more</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-8 col-md-12">
+                                <div class="row gy-5">
+                                    <div class="col-12">
+                                        <div class="header-about-school">
+                                            <h5>About School</h5>
+                                        </div>
+                                        <div class="body-about-school">
+                                            <div class="row g-4">
+                                                <div class="col-sm-4 col-xs-12">
+                                                    <img src="assets/img/about_school.jpg" class="d-block w-100"
+                                                        alt="...">
+                                                </div>
+                                                <div class="col-sm-8 col-xs-12">
+                                                    <div class="row mb-5">
+                                                        <div class="col">
+                                                            <h5>Location:</h5>
+                                                            <h5>Hogwarts Castle, Highlands, Scotland, Great Britain</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <h5>Motto:</h5>
+                                                            <h5>"Draco Dormiens Nunqum Titillandus" (Never Tickle a
+                                                                Sleeping Dragon)</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="header-about-school">
+                                            <h5>Mini Gallery</h5>
+                                        </div>
+                                        <div class="body-about-school">
+                                            <div id="carouselExampleIndicators" class="carousel slide"
+                                                data-bs-ride="carousel">
+                                                <div class="carousel-indicators">
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="0" class="active" aria-current="true"
+                                                        aria-label="Slide 1"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                </div>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img src="assets/img/gallery_3.webp" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="assets/img/gallery_7.webp" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="assets/img/gallery_2.webp" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End of About Section -->
+
+        </main>
+        <!-- End of Main Section -->
+
+        <!-- Footer Section -->
+        <footer class="footer pt-2">
+            <div class="footer-content">
+                <div class="container-fluid p-2">
+                    <h5 class="text-center text-light">Copyright © 2022 Group R. All Rights Reserved.</h5>
+                </div>
+            </div>
+        </footer>
+        <!-- End Of Footer Section -->
+
+        <div class="sosmed-mobile d-flex fixed-bottom justify-content-center align-items-center p-2 shadow shadow-lg">
+            <a href="#" class="btn-sosmed mx-1">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com" class="btn-sosmed mx-1">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="#" class="btn-sosmed mx-1">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="#" class="btn-sosmed mx-1">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+        </div>
+    </div>
+    <!-- End of Wrapper -->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

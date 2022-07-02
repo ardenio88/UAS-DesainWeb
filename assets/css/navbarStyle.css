@@ -1,0 +1,156 @@
+/* Header & Navbar */
+.navbar {
+    background: #602828;
+}
+
+.header {
+    width: 100%;
+    background: #370B0B;
+    margin: 56px 0 0 0;
+    /* height: 122px; */
+    padding: 20px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #602828;
+}
+
+.nav-link.active {
+    color: #FFFFFF;
+}
+
+.title-logo {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.title-logo:hover {
+    color: #FFFFFF;
+}
+
+.sosmed {
+    gap: 10px;
+}
+
+.btn-sosmed {
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.btn-sosmed i,
+.btn-sosmed i:hover {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.btn-sosmed:nth-child(1) {
+    background: #EE2299;
+}
+
+.btn-sosmed:nth-child(2) {
+    background: #E84E56;
+}
+
+.btn-sosmed:nth-child(3) {
+    background: #22DD22;
+}
+
+.btn-sosmed:nth-child(4) {
+    background: #FFBB22;
+}
+
+/* End of Header & Navbar */
+
+/* Marquee Section */
+.marquee {
+    position: relative;
+    padding: .4em;
+}
+
+.marquee .news-container {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: .8em 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.marquee .date-container {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: .8em 0;
+    padding: .8em 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+/* End of Marquee Section */
+
+/* Footer Section */
+.footer {
+    background: #370B0B;
+}
+
+.footer-content {
+    background: #602828;
+}
+/* End of Footer Section */
+
+
+@media only screen and (max-width: 575px) {
+    .header .sosmed {
+        display: none !important;
+    }
+
+    .btn-sosmed {
+        padding: 4px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px;
+        text-decoration: none;
+    }
+
+    .btn-sosmed i,
+    .btn-sosmed i:hover {
+        font-size: 21px;
+        color: #FFFFFF;
+    }
+
+    .sosmed-mobile {
+        background-color: #370B0B;
+    }
+
+    .footer {
+        margin: 0 0 4em 0;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .sosmed-mobile {
+        display: none !important;
+    }
+}

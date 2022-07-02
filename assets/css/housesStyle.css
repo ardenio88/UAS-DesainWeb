@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+.houses {
+    background: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.houses-header {
+    background: #370B0B;
+}
+
+.houses .container-fluid {
+    width: 94%;
+    margin: 3% 0;
+}
+
+.houses .header-houses {
+    background: #370B0B;
+    padding: .8em 2em;
+    color: #FFFFFF;
+}
+
+.body-houses {
+    padding: 2em;
+    background: #FFFFFF;
+}
+
+.body-about img {
+    max-width: 500px;
+    margin: 2em 0 2em 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .body-about img {
+        max-width: 300px;
+        margin: 2em 0 2em 0;
+    }
+}
